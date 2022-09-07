@@ -1,3 +1,5 @@
+package Basicos;
+
 import java.util.Scanner;
 
 public class Ej21 {
