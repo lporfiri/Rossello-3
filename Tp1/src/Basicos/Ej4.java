@@ -1,5 +1,6 @@
 package Basicos;
 
+
 import java.util.Scanner;
 
 public class Ej4 {
@@ -10,7 +11,7 @@ public class Ej4 {
         System.out.print("Ingrese un numero: ");
         numero = input.nextInt();
 
-        if (numero == 0){
+        if (numero % 2 == 0){
             System.out.println("el numero ingresado es par");
         }else{
             System.out.println("El numero ingresado no es par");

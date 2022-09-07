@@ -13,11 +13,11 @@ public class Ej9 {
         do {
             System.out.print("Ingresa un numero mayor que 1: ");
             numero = in.nextInt();
-        } while (numero <= 1);
+        } while (numero < 1);
 
         for (int i = 1; i <= numero; i++) {
-            //System.out.println("la suma entre " + i + " y " + numero + " es " + (i + numero));
-            System.out.println(i + i);
+            System.out.println("la suma entre " + i + " y " + numero + " es " + (i + numero));
+            //System.out.println(i + i);
         }
     }
 
