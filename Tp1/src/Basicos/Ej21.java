@@ -22,23 +22,12 @@ public class Ej21 {
             op = in.nextInt();
 
             switch (op) {
-                case 1:
-                    System.out.println("Suma");
-                    break;
-                case 2:
-                    System.out.println("Resta");
-                    break;
-                case 3:
-                    System.out.println("Multiplicacion");
-                    break;
-                case 4:
-                    System.out.println("Division");
-                    break;
-                case 5:
-                    System.out.println("bye!");
-                    break;
-                default:
-                    System.out.println("Ops! Opcion no valida!");
+                case 1 -> System.out.println("Suma");
+                case 2 -> System.out.println("Resta");
+                case 3 -> System.out.println("Multiplicacion");
+                case 4 -> System.out.println("Division");
+                case 5 -> System.out.println("bye!");
+                default -> System.out.println("Ops! Opcion no valida!");
             }
         }
 
