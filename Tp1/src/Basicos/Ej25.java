@@ -19,31 +19,36 @@ El número -1 no contara como número
         Scanner in = new Scanner(System.in);
         int numero;
         int contador = 0;
-        double media =  0;
-        int mayor = 0, menor = 0,suma = 0, sumPositivos = 0, sumNegativos = 0;
+        double media = 0;
+        int mayor = 0, menor = 0, suma = 0, sumPositivos = 0, sumNegativos = 0;
+        int cantPar = 0, cantImpar = 0;
 
         while (true) {
             System.out.print("ingrese un numero: ");
             numero = in.nextInt();
             if (numero == -1) break;
-            if (contador == 0)
-                mayor = menor = numero;
-
+            if (contador == 0) mayor = menor = numero;
             if (numero > mayor) mayor = numero;
             if (numero < menor) menor = numero;
             if (numero > 0) sumPositivos += numero;
             if (numero < 0) sumNegativos += numero;
+            if(numero % 2 == 0)
+                cantPar++;
+            else
+                cantImpar++;
             suma += numero;
             contador++;
             media = suma / contador;
         }
 
-        System.out.println(" - mayor numero introducido:"+mayor+"\n" +
-                "  - menor numero introducido: "+menor+"\n" +
-                "  - suma de todos los numeros: "+suma+"\n" +
-                "  - suma de los numeros positivos: "+sumPositivos+"\n" +
-                "  - suma de los numeros negativos: "+sumNegativos+"\n" +
-                "  - media de la suma (la primera que pido): " + media);
+        System.out.println("- mayor numero introducido:" + mayor + "\n" +
+                "- menor numero introducido: " + menor + "\n" +
+                "- suma de todos los numeros: " + suma + "\n" +
+                "- suma de los numeros positivos: " + sumPositivos + "\n" +
+                "- suma de los numeros negativos: " + sumNegativos + "\n" +
+                "- media de la suma: " + media + "\n" +
+                "- cantidad de numeros pares:  " + cantPar + "\n" +
+                " - cantidad de numeros impares: "+ cantImpar);
 
     }
 

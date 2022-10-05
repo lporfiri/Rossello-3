@@ -2,13 +2,14 @@ package Ej0;
 
 public class CuentaBancaria {
     // variables de instancia (atributos de la clase):
-    String CBU;
+    private String CBU;
     String alias;
     double saldo;
 
     // Metodos (Comportammiento o acciónes de la clase):
 
     void mostrarDatos(){
+
         System.out.println(CBU + " " + alias + " " + saldo);
     }
 
@@ -22,6 +23,7 @@ public class CuentaBancaria {
         }
     }
     boolean saldoDisponible(double monto){
+
         return saldo >= monto;
     }
     void extraer(double monto){
