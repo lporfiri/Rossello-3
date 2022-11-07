@@ -2,7 +2,7 @@ package Ej0;
 
 public class CuentaBancaria {
     // variables de instancia (atributos de la clase):
-    private String CBU;
+    String CBU;
     String alias;
     double saldo;
 

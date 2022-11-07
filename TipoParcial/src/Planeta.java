@@ -10,7 +10,6 @@ public class Planeta {
     private TipoPlaneta tipoPlaneta;
 
     // constructor
-//    public Planeta(){}
     public Planeta(String nombre, int cantidadSatelites, double masa, double volumen, int diametro, int distanciaSol, boolean esObservable, TipoPlaneta tipoPlaneta) {
         this.nombre = nombre;
         this.cantidadSatelites = cantidadSatelites;
@@ -40,15 +39,8 @@ public class Planeta {
 
     public boolean esPlanetaExterior() {
         double limite = 149597870 * 3.4;
-        // boolean esExterior = false;
-        if(this.distanciaSol > limite) {
-            //esExterior = true;
-            return true;
-        } else {
-            return false;
-        }
+        return this.distanciaSol > limite;
 
-        //return esExterior;
     }
 
 

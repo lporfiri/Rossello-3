@@ -11,6 +11,7 @@ public class Principal {
         cb.mostrarDatos();
 
 
+
         System.out.println(cb.obtenerSaldo());
         cb.depositar(500);
         System.out.println(cb.obtenerSaldo());

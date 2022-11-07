@@ -3,14 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList2/ArrayList2.iml" filepath="$PROJECT_DIR$/ArrayList2/ArrayList2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arreglos2/Arreglos2.iml" filepath="$PROJECT_DIR$/Arreglos2/Arreglos2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ColaboracionEntreClases/ColaboracionEntreClases.iml" filepath="$PROJECT_DIR$/ColaboracionEntreClases/ColaboracionEntreClases.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Colecciones/Colecciones.iml" filepath="$PROJECT_DIR$/Colecciones/Colecciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enum1/Enum1.iml" filepath="$PROJECT_DIR$/Enum1/Enum1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Enums/Enums.iml" filepath="$PROJECT_DIR$/Enums/Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/herencia3/Herencia3.iml" filepath="$PROJECT_DIR$/POO/herencia3/Herencia3.iml" />
       <module fileurl="file://$PROJECT_DIR$/POO/POO.iml" filepath="$PROJECT_DIR$/POO/POO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Rossello-3.iml" filepath="$PROJECT_DIR$/.idea/Rossello-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TipoParcial/TipoParcial.iml" filepath="$PROJECT_DIR$/TipoParcial/TipoParcial.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tp1/Tp1.iml" filepath="$PROJECT_DIR$/Tp1/Tp1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arreglos/arreglos.iml" filepath="$PROJECT_DIR$/Arreglos/arreglos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/herencia/herencia.iml" filepath="$PROJECT_DIR$/POO/herencia/herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO/herencia2/herencia2.iml" filepath="$PROJECT_DIR$/POO/herencia2/herencia2.iml" />
     </modules>
   </component>
 </project>
